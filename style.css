@@ -1,11 +1,10 @@
-/*!
- * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 
 section {
@@ -15,6 +14,17 @@ section {
   section {
     padding: 20px 0; } 
 }
+
+.del-1 {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.del-2 {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
 
 /*Emphasize text*/
 .emph {
@@ -35,6 +45,7 @@ p {
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  color: #244987;
 }
 .header-sm {
   font-size: 17px;
@@ -42,12 +53,37 @@ p {
 }
 .header-lg {
   font-size: 40px;
+  color: #244987;
 }
 .header-xlg {
   font-size: 50px;
-  padding: 40px 0;
-  color: #0a244f;
+  padding: 0 0 20px 0;
+  color: #244987;
 
+}
+
+
+/* Navbar Formatting */
+#naver {
+  transition: all .5s;
+}
+.divide {
+   box-shadow: 0 .2px 3px #aaa !important;
+
+}
+.nav-head {
+  color: #244987 !important;
+  font-size: 24px !important;
+  font-weight: 200;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  font-weight: 200;
+}
+
+.nav-link:hover{
+  color: #244987 !important;
 }
 
 /* Schedule Section Formating*/
@@ -101,7 +137,7 @@ p {
   padding-bottom: 0;
 }
 .team-description {
-  font-style: italic;
+/*  font-style: italic;*/
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
